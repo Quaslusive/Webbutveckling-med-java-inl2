@@ -1,0 +1,8 @@
+127.0.0.1 - - [12/Feb/2024:22:11:37 +0100] "GET /home HTTP/1.1" 200 374 http-bio-8080-exec-1 42
+127.0.0.1 - - [12/Feb/2024:22:11:38 +0100] "GET /home HTTP/1.1" 200 374 http-bio-8080-exec-2 0
+127.0.0.1 - - [12/Feb/2024:22:11:39 +0100] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 6
+127.0.0.1 - - [12/Feb/2024:22:11:39 +0100] "GET /home HTTP/1.1" 200 374 http-bio-8080-exec-5 0
+127.0.0.1 - - [12/Feb/2024:22:12:11 +0100] "GET /studenter HTTP/1.1" 200 594 http-bio-8080-exec-1 220
+127.0.0.1 - - [12/Feb/2024:22:12:11 +0100] "GET /stylePageStudents.css HTTP/1.1" 200 9555 http-bio-8080-exec-2 6
+127.0.0.1 - - [12/Feb/2024:22:12:11 +0100] "GET /stylePageStudents.css HTTP/1.1" 200 9555 http-bio-8080-exec-3 5
+127.0.0.1 - - [12/Feb/2024:22:12:11 +0100] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-5 4

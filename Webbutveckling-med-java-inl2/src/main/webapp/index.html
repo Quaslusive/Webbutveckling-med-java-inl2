@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin: 50px">
+<h1>Hello World!</h1>
+
+<table class="active-table-tab">
+    <thead>
+    <th>ID</th>
+    <th>fname</th>
+    <th>lname</th>
+    </thead>
+
+</table>
+
+
+<form action="home" method="POST">
+    <input type="text" name="fname"> <br>
+    <input type="text" name="ename"> <br>
+    <input type="submit" value="submit">
+</form>
+
+<label for="studenter">Välj kurs:</label>
+
+<select name="studnter" id="studenter" required>
+    <option value="null">-Var vänlig och välj kurs-</option>
+    <option value="1">JAVA23 | Webbutveckling med Java</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+</select>
+<header>
+    <nav>
+        <ul>
+            <li><a href=home>| Home |</a></li>
+            <li><a href=courses>| Courses |</a></li>
+            <li><a href=students>| Students |</a></li>
+            <li><a href=attendance>| Attendance |</a></li>
+            <li><a href=addcourses>| Add Courses |</a></li>
+            <li><a href=addstudents>| Add Students |</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

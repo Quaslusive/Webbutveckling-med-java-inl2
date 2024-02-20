@@ -1,0 +1,10 @@
+org\maventest\JAXRSConfiguration.class
+servlets\Home\HomesServlets.class
+servlets\Home\CreateCourseServlet.class
+servlets\Home\AttendanceServlets.class
+org\maventest\resources\JavaEE8Resource.class
+servlets\Home\CreateStudentServlet.class
+models\MysqlConnector.class
+servlets\Home\CoursesServlets.class
+servlets\Home\StudentsServlets.class
+servlets\Home\EnrollCourseServlet.class
