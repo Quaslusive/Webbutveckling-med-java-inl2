@@ -46,7 +46,7 @@ public class CreateStudentServlet extends HttpServlet {
 
         out.println("<main>");
 
-        if(message != null) {
+        if (message != null) {
             out.println(message);
         }
         out.println("<div>");
@@ -98,15 +98,8 @@ public class CreateStudentServlet extends HttpServlet {
             boolean alreadyExist = MysqlConnector.addStudent(fname, lname, city, hobbies);
             if (alreadyExist) {
 
-                MysqlConnector.addStudent(fname, lname, city, hobbies);
-
-                // Redirect to doGet to display updated list of students
                 resp.sendRedirect("/addstudents?message=<p>Successfully added " + fname + " " + lname + " to database!</p>");
 
-                System.out.println(fname);
-                System.out.println(lname);
-                System.out.println(city);
-                System.out.println(hobbies);
             } else {
                 resp.sendRedirect("/addstudents?message=<p><mark>" + fname + " " + lname + " already exist in the database! Please try again.</mark></p>");
 

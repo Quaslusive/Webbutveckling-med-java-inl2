@@ -167,8 +167,4 @@ public class MysqlConnector {
                 throw new RuntimeException(e);
             }
     }
-
-
-
 }
-
